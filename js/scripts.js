@@ -15,6 +15,7 @@ $(document).ready(function() {
     console.log(Learn);
     console.log(Demand);
     console.log(Language);
+    $(".person").text(Name);
     if(Name === ""){
       alert("Please,Enter Your Name.");
     }else if(Language === "ja"){
