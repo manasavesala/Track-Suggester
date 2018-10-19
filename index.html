@@ -16,31 +16,15 @@
       <form id="track">
         <label for="name">Enter your Name:</label>
         <input id="name" type="text"><br><br>
-        <p>How important is UI to the websites you'd like to build?</p>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="someimp" checked>
-            Somewhat important
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="veryimp">
-            Very important 
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="prettyimp">
-            Pretty important
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="interest" value="mostimp">
-            most important 
-          </label>
-        </div><br>
+        <p>Which of these languages are you most interested in?</p>
+        <select class="form-control" id="language">
+          <option value = "ja">Java</option>
+          <option value = "c">C#</option>
+          <option value = "ph">PHP</option>
+          <option value = "cs">CSS</option>
+          <option value = "ru">Ruby</option>
+          <option value = "wd">Web Design</option>
+        </select><br><br>
         <p>What type of company you'd like to work?</p>
         <div class="radio">
           <label>
@@ -52,18 +36,6 @@
           <label>
             <input type="radio" name="company" value="contentcmpy">
             A company that focuses on content-driven websites
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="company" value="anycmpy">
-            any type of company
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="company" value="owncmpy">
-            I'd like to work for myself, or as a front-end developer at a company
           </label>
         </div>
         <div class="radio">
@@ -96,17 +68,11 @@
             <input type="radio" name="development" value="money">
             Making lots of money, obviously
           </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="development" value="showoff">
-            Be able to quickly show off my skills using an intuitive programming language
-          </label>
         </div><br>
         <p>What would you most like to learn?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="learn" value="coding">
+            <input type="radio" name="learn" value="coding" checked>
             A widely used programming language as well as mobile applications
           </label>
         </div>
@@ -118,45 +84,46 @@
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="learn" value="job">
-            A software framework that will help get a good paying job
-          </label>
-        </div>
-        <div class="radio">
-          <label>
             <input type="radio" name="learn" value="content">
             How to use a content management system to build websites
           </label>
         </div><br>
-        <p>Which of these languages are you most interested in?</p>
+        <p>Would you like to learn something more in demand, or more fun to use?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="language" value="ru">
-            Ruby
+            <input type="radio" name="demand" value="useful" checked>
+            Something in demand that is useful in any situation
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="language" value="ph">
-            PHP
+            <input type="radio" name="demand" value="quick">
+            Something that will get me a job quick!
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="language" value="ja">
-            java
+            <input type="radio" name="demand" value="enjoy">
+            Both are important to me, but I'd rather enjoy my time spent coding
+          </label>
+        </div><br>
+        <p>How important is UI to the websites you'd like to build?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="interest" value="veryimp" checked>
+            Very important 
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="language" value="c">
-            C#
+            <input type="radio" name="interest" value="mostimp">
+            most important 
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="language" value="cs">
-            CSS
+            <input type="radio" name="interest" value="someimp" >
+            Somewhat important
           </label>
         </div><br>
 
@@ -174,6 +141,12 @@
       </div>
       <div id="ruby">
         <p><a href="https://www.epicodus.com/ruby">RUBY</a> is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+      </div>
+      <div id="css">
+        <p><a href="https://www.epicodus.com/css">CSS</a> is the language for describing the presentation of Web pages, including colors, layout, fonts, and other stylistic choices. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, and printers. HTML — used for building the structure of the page — and CSS — used for the visual layout — are the two basic languages involved in the building of web pages and web applications.</p>
+      </div>
+      <div id="design">
+        <p><a href="https://www.epicodus.com/design">WEB DESIGN</a> is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors. Web Design is a crucial component in web development, and students who learn design will be able to engineer positive and interactive user experiences through innovative interfaces. </p>
       </div>
     </div>
   </body>
