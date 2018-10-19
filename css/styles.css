@@ -1,0 +1,24 @@
+.btn {
+  display: block;
+}
+
+#csharp{
+  display: none;
+}
+#java{
+  display: none;
+}
+#php{
+  display: none;
+}
+#ruby{
+  display: none;
+}
+
+
+h1{
+text-align: center;
+}
+body{
+  background-color:#eaf2f1;
+}
