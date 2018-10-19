@@ -22,3 +22,10 @@ text-align: center;
 body{
   background-color:#eaf2f1;
 }
+
+p{
+  font-weight: bold;
+}
+.radio{
+  font-size: 10px;
+}
