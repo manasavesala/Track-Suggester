@@ -1,51 +1,29 @@
-.btn {
-  display: block;
-}
-
-#csharp{
-  display: none;
-}
-#java{
-  display: none;
-}
-#php{
-  display: none;
-}
-#ruby{
-  display: none;
-}
-#css{
-  display: none;
-}
-#design{
-  display: none;
-}
-#bootstrap{
-  display: none;
-}
-#javascript{
-  display: none;
-}
-.sug{
-  display: none;
-}
-h1{
-text-align: center;
-}
-.p1{
-  font-weight: bold;
-}
-.radio{
-  font-size: 10px;
-}
 body{
-  background-color: #f5f9ea;
-}
-.jumbotron{
-  margin-top: 30px;
-  margin-left: 30px;
-  padding :10px;
+  background-image: url(../img/ibg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 h1{
+  text-align: center;
   color: red;
+  font-size: 65px;
+  font-family: 'Niramit';
+  padding-top: 30px;
+  font-weight: bold;
+
+}
+h2{
+  text-align: center;
+  color: yellow;
+  font-size: 40px;
+  font-family: arial;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+a{
+  color: white;
+  font-size: 30px;
+  padding-top: 60px;
+  text-align: center;
+  font-weight: bold;
 }

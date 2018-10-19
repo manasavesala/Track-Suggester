@@ -16,41 +16,20 @@ $(document).ready(function() {
     }else if(Language === "ja"){
       $(".sug").show();
       $("#java").show();
-/*
-
       $("#csharp").hide();
       $("#css").hide();
-      $("#ruby").hide();
-      $("#php").hide();
-      $("#design").hide();
-      $("#javascript").hide(); 
-      $("#bootstrap").hide(); 
-*/
     }else if(Language === "c"){
       $(".sug").show();
       $("#csharp").show();
-/*
-
       $("#css").hide();
       $("#php").hide();
       $("#java").hide();
-      $("#ruby").hide();
-      $("#design").hide();
-      $("#javascript").hide(); 
-      $("#bootstrap").hide(); 
-*/
     }else if(Language === "cs"){
       $(".sug").show();
       $("#css").show();
-/*
       $("#csharp").hide();
       $("#php").hide();
       $("#ruby").hide();
-      $("#java").hide();
-      $("#design").hide(); 
-      $("#javascript").hide(); 
-      $("#bootstrap").hide(); 
-*/
     }
   });
 });
