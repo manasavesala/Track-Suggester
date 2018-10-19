@@ -20,19 +20,32 @@
 #design{
   display: none;
 }
+#bootstrap{
+  display: none;
+}
+#javascript{
+  display: none;
+}
 .sug{
   display: none;
 }
-.
-
 h1{
 text-align: center;
 }
-
-
 .p1{
   font-weight: bold;
 }
 .radio{
   font-size: 10px;
+}
+body{
+  background-color: #f5f9ea;
+}
+.jumbotron{
+  margin-top: 30px;
+  margin-left: 30px;
+  padding :10px;
+}
+h1{
+  color: red;
 }
