@@ -20,16 +20,17 @@
 #design{
   display: none;
 }
+.sug{
+  display: none;
+}
 
 
 h1{
 text-align: center;
 }
-body{
-  background-color:#eaf2f1;
-}
 
-p{
+
+.p1{
   font-weight: bold;
 }
 .radio{

@@ -7,7 +7,7 @@ $(document).ready(function() {
     var Development = $("input:radio[name=development]:checked").val();
     var Learn = $("input:radio[name=learn]:checked").val();
     var Demand = $("input:radio[name=demand]:checked").val();
-
+    var Name = $("#name").val();
     
     console.log(UIimp);
     console.log(Company);
@@ -15,8 +15,13 @@ $(document).ready(function() {
     console.log(Learn);
     console.log(Demand);
     console.log(Language);
-
-    if(UIimp === "veryimp" && Company === "bigcmpy"){
+    if(Name === ""){
+      alert("Please,Enter Your Name.");
+    }else if(Language === "ja"){
+      $(".sug").show();
+      $("#java").show();
+    }else if(UIimp === "veryimp" && Company === "bigcmpy"){
+      $(".sug").show();
       $("#ruby").show();
       $("#css").show();
       $("#csharp").hide();
@@ -24,12 +29,13 @@ $(document).ready(function() {
       $("#java").hide();
       $("#design").hide();
     }else if(Company === "bigcmpy" && UIimp === "someimp"){
+      $("#sug").show();
       $("#csharp").show();
-      $("#design").show();
+      $("#css").show();
       $("#php").hide();
       $("#java").hide();
       $("#ruby").hide();
-      $("css").hide();
+      $("#design").hide();
     }else if(UIimp === "mostimp" || Learn === "content" || Company === "startup" || Development === "money"){
       $("#php").show();
       $("#design").show();
