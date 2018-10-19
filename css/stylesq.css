@@ -36,16 +36,19 @@ text-align: center;
   font-weight: bold;
 }
 .radio{
-  font-size: 10px;
+  font-size: 15px;
 }
 body{
-  background-color: #f5f9ea;
+  background-color: #eddee9;
 }
 .jumbotron{
   margin-top: 30px;
   margin-left: 30px;
   padding :10px;
+  color: green;
+  font-weight: bold;
 }
-h1{
+.p1{
   color: red;
+  font-size: 18px;
 }

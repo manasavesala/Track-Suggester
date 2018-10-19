@@ -5,16 +5,19 @@ body{
 }
 h1{
   text-align: center;
-  color: red;
+  color: #057ec4;
   font-size: 65px;
   font-family: 'Niramit';
   padding-top: 30px;
   font-weight: bold;
-
+}
+h1:hover{
+  color: red;
+  font-size: 68px;
 }
 h2{
   text-align: center;
-  color: yellow;
+  color: #af6f07;
   font-size: 40px;
   font-family: arial;
   padding-top: 150px;
@@ -22,8 +25,13 @@ h2{
 }
 a{
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 60px;
   text-align: center;
   font-weight: bold;
+  padding-left: 200px;
+}
+a:hover{
+  font-size: 45px;
+  color:red;
 }
